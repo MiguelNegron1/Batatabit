@@ -46,10 +46,13 @@ header{
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 
 }
-header img{
-    width: 150px;
-    height: 24px;
+header a img{
     margin-block-start: 60px;
+}
+header>img{
+    margin-block-start: 3vh;
+    width: 19vw;
+    /* height: 24px; */
     align-self: center;
 }
 .header--title--container{
@@ -61,7 +64,7 @@ header img{
     align-self: center;
 }
 .header--title--container h1{
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     line-height: 2.6rem;
     font-weight: bold;
     color: var(--Just-White);
@@ -78,10 +81,10 @@ header img{
     left: calc(50% - 114px);
     width: 229px;
     height: 48px;
-    margin-block-start: 35px;
+    /* margin-block-start: 35px; */
     background-color: var(--off-white);
     padding: 15px;
-    top: 270px;
+    top: 310px;
     /* Sombra */
     border: none;
     border-radius: 5px;
@@ -169,6 +172,7 @@ main{
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(6, 6vh);
     margin-block: 3vh;
+    margin-inline-start: 1vw;
     text-align: start;
 }
 
@@ -249,7 +253,7 @@ grid-area: 2/1;
     margin: 0 38vw;
 }
 #comision-table{
-    margin-inline-start: 15vw;
+    margin-inline-start: 5vw;
 }
 
 /* Second Table Content */
@@ -454,12 +458,12 @@ grid-area: 2/1;
 .card--1{
     display: flex;
     align-items: center;
-    margin-inline-start: 18vw;
+    margin-inline-start: 26vw;
 }
 .plan__card--2--align{
     display: flex;
     align-items: center;
-    margin-inline-start: 23vw;
+    margin-inline-start: 28vw;
 }
 
 .card--2{
