@@ -48,6 +48,9 @@ header{
 }
 header a img{
     margin-block-start: 60px;
+    transform: rotate(90deg);
+    margin-inline-start: 10px;
+
 }
 header>img{
     margin-block-start: 3vh;
@@ -75,16 +78,17 @@ header>img{
     font-size: 1.4rem;
     font-weight: 500;
     margin-block-start: 2.5rem;
+    margin-block-end: 10px;
 }
 .header--title--container  .header--btn{
-    position: absolute;
+    /* position: absolute; */
     left: calc(50% - 114px);
     width: 229px;
     height: 48px;
     /* margin-block-start: 35px; */
     background-color: var(--off-white);
     padding: 15px;
-    top: 310px;
+    top: 325px;
     /* Sombra */
     border: none;
     border-radius: 5px;
@@ -93,6 +97,9 @@ header>img{
     font-weight: bold;
     text-decoration: none;
     color: var(--black);
+}
+#first-card>img{
+    transform: rotate(90deg);
 }
 .header--btn span{
     display: inline-block;
