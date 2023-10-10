@@ -96,7 +96,7 @@ header>img{
 }
 .header--btn span{
     display: inline-block;
-    background-image: url('/assets/Vector.png');
+    background-image: url('./assets/Vector.png');
     margin-inline-start: 12px;
     width: 13px;
     height: 11px;
@@ -128,7 +128,7 @@ main{
     width: 200px;
     height: 200px;
     margin: 0 auto 5vh;
-    background: url('/assets/Bitcoin.png') center/cover no-repeat ;
+    background: url('./assets/Bitcoin.png') center/cover no-repeat ;
 }
 .main-exchange-container h2{
     margin-block-end: 30px;
@@ -225,7 +225,7 @@ grid-area: 2/1;
     grid-area: 5/3;
 }
 .coin-table span{
-    background: url('/assets/trending-down\ 1.png') center/cover no-repeat ;
+    background: url('./assets/trending-down\ 1.png') center/cover no-repeat ;
     width: 12px;
     height: 8px;
     display: inline-block;
